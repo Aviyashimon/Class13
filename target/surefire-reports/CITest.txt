@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: CITest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 1, Errors: 0, Skipped: 4, Time elapsed: 0.477 s <<< FAILURE! - in CITest
+CITest.beforeClass  Time elapsed: 0.342 s  <<< FAILURE!
+java.lang.IllegalStateException: The driver executable must exist: C:\Users\aviya\Desktop\JavaCI-main\JavaCI-main\JavaCITest\JavaCITest\XXXXXXXXXXX
+	at CITest.beforeClass(CITest.java:16)
+
