@@ -1,3 +1,4 @@
+import org.openqa.selenium.By;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.annotations.BeforeClass;
@@ -17,6 +18,7 @@ public class HeadlessTest {
     @Test
     public static void checkTranslate(){
         driver.get("https://translate.google.com");
+
     }
 
 }
